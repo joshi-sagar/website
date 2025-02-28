@@ -1,128 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagar Joshi - Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: #121212;
-            color: white;
-        }
-        .navbar {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-        }
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .hero img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-        }
-        .section {
-            padding: 80px 0;
-        }
-        .card {
-            background: rgba(255, 255, 255, 0.1);
-            border: none;
-            border-radius: 15px;
-            transition: transform 0.3s;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .contact-icons a {
-            color: white;
-            font-size: 1.5rem;
-            margin: 0 10px;
-            transition: 0.3s;
-        }
-        .contact-icons a:hover {
-            color: #0d6efd;
-        }
-    </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Sagar Joshi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sagar_joshi">
+
+    <title>Sagar joshi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <h4><a class="featured-text text-center text-lg-left" href="#page-top">Pursuing Mtech.</a></h4>
+		
+		
+        
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">My self</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup1">Contact</a>
+            </li>
+          </ul>
+		
         </div>
+      </div>
+    </nav>
+		
+      </div>
     </nav>
 
-    <section class="hero">
-        <img src="img/image12.jpeg" alt="Sagar Joshi">
-        <h1 class="mt-3">Sagar Joshi</h1>
-        <p>Full-stack Developer | Cybersecurity Enthusiast | AI & Blockchain</p>
+    <!-- Header -->
+    
+
+    <!-- About Section -->
+    <section class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+          	<img src="img/image12.jpeg" class="img-fluid" alt="my_photo">
+            <h2 id="about" class="text-white mb-4">Sagar joshi</h2><br>
+			<br><br><br>
+            <p  class="text-white-50">My name is Sagar joshi. I have knowledge about Full-stack Web-development, data science, Cybersecurity and Cloud computing(AWS). I am from Almora, Uttarakhand, India.			</p>
+          </div>
+        </div>
+        
+      </div>
     </section>
 
-    <section id="projects" class="section text-center">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <h4>Intrusion Detection System</h4>
-                        <p>Developed a deep learning-based IDS with 97% accuracy.</p>
-                    </div>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+    	<h2 class="featured-text text-center">Projects</h2>
+      <div class="container">
+
+    <!-- Featured Project Row -->
+    <br>
+    <br>
+    <br>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/Screenshot (86).png" alt="netbanking">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Mushroom Edibility Test</h4>
+              <p class="text-black-50 mb-0">Data science affects mostly part of our life, here I used some superwised learning methods, some Data science concepts and with the combination of Web-devlopement create this project that can predict whether the mashroom is edible or poisoness.</a></u> </p>
+            </div>
+          </div>
+        </div>
+
+    <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/mobilesecurity.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Flight managment</h4>
+                  <p class="mb-0 text-white-50">In this project I created a flight managment web application, with the help of <i>"Django"</i>.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <h4>Plant Disease Detection</h4>
-                        <p>AI-powered system predicting plant diseases using sensor data.</p>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		
+    <!-- Project two Row -->
+		<div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/SYSTEM.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Uttarakhand Foods 4u</h4>
+                  <p class="mb-0 text-white-50">Launch a start-up for selling organic food products from farmers to directly customers. Created this start-up's E-commerce portal and payment gateway.</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
                 </div>
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <h4>Mushroom Edibility Test</h4>
-                        <p>Web application predicting mushroom edibility using AI.</p>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Project Three Row -->
+       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/NETWORK.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white"><a href="http://careersupport24.com/">Careersupport24.com</a></h4>
+                  <p class="mb-0 text-white-50">Worked as a freelancer with this NGO and devlop their web portal. This is basically a job recuriting site.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    	
+		
+		 <!-- Project FOUR Row -->
+		<div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/MEDIA.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">OP</h4>
+                  <p class="mb-0 text-white-50">A simple project that can be use by organization's for managing their users basic operations and other related tasks.</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+<!-- Project FIVE Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/NETWORK.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Authetication by linkedin API</h4>
+                  <p class="mb-0 text-white-50">This is simple project where I authenticat a user by linkedin API</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    	
+<!-- certifications -->
+<br>
+<br>
+<hr>
+ <section id="certificates" class="projects-section bg-light">
+
+
+        <h2 class="featured-text text-center text-lg-left">Certifications & Courses</h2>
+        <br>
+      <div class="container">
+     <ul >
+          <!--first-->
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/8b82d893293edd139825d5746dd41a3d">Intercativity with javascript from University of Michigan in coursera</a></h4></li><hr>
+           <!--second--> 
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/de6a2c3e9450a2a22ca75cc14e073f7b">Introduction to Data Science in Python from University of Michigan in coursera</a></h4></li><hr>
+            <!--third-->
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/053b695cca2548543f49b45fe74352c2">Introduction to Cyber Attacks from NYU in coursera</a></h4></li><hr>
+            <!--fourth-->
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/7e63cf90ce0769d54d51a2c372c12f8f">Real-Time Cyber Threat Detection and Mitigation from NYU in coursera</a></h4></li><hr>
+            <!--five-->
+			<li> <h4 class ="text-blue"><a href="https://pdf.credential.net/tpvw886a.pdf">ICSI | CNSS Certified Network Security Specialist</a></h4></li><hr>
+            <!--six-->
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/cd70f9fe01affc637e3c36888ac883b2">Cloud Computing Basics (Cloud 101) from learnquest in coursera</a></h4></li><hr>
+            <!--seven-->
+            <li> <h4 class ="text-blue"><a href="https://coursera.org/share/e53f7bd276fc0d06eb2d0e41a2573d09">Data Science Math Skills from Duke University in coursera</a></h4></li>
+	</ul>
+      </div><br><br>
+      <hr>
+      
+	  </div>
+    </section>
+
+
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Your time is limited; so don't waste it living someone else's life. –Steve Jobs</h2>
+
             </div>
         </div>
+      </div>
     </section>
 
-    <section id="certificates" class="section text-center">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Interactivity with JavaScript (University of Michigan)</a></li>
-                <li><a href="#" class="text-white">Introduction to Data Science (University of Michigan)</a></li>
-                <li><a href="#" class="text-white">Cyber Threat Detection (NYU)</a></li>
-            </ul>
+    <!-- Contact Section -->
+    <section id="signup1" class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+         
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">E-mail</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">sjoshiuk001@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+        <div class="social d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/sagar-joshi-517551168/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100048173386297" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://github.com/joshi-sagar" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
+
+      </div>
     </section>
 
-    <section id="contact" class="section text-center">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sjoshiuk001@gmail.com" class="text-white">sjoshiuk001@gmail.com</a></p>
-        <div class="contact-icons">
-            <a href="https://www.linkedin.com/in/sagar-joshi-517551168/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/joshi-sagar"><i class="fab fa-github"></i></a>
-        </div>
-    </section>
+    
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
 </html>
