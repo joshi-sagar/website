@@ -269,18 +269,27 @@
     .about-grid {
       display: grid;
       grid-template-columns: 200px 1fr;
-      gap: 56px;
+      gap: 50px;
       align-items: start;
     }
     .avatar-box {
       width: 180px; height: 200px;
       background: var(--bg3);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 7px;
       display: flex; align-items: center; justify-content: center;
       font-family: var(--mono); font-size: 48px; color: var(--cyan);
-      position: relative;
+      position: relative; 
       overflow: hidden;
+    }
+    .avatar-box2 {
+      width: 230px; height: 350px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      display: flex;  justify-content: center;
+      position: relative;
+      overflow: hidden; 
     }
     .avatar-box::after {
       content: '';
@@ -693,7 +702,7 @@
   <!-- NAV -->
   <nav id="navbar">
     <div class="nav-inner">
-      <a class="logo" href="https://github.com/joshi-sagar">~/System<span>Craft</span></a>
+      <a class="logo" href="https://github.com/joshi-sagar">~/joshi-<span>sagar</span></a>
       <div class="nav-links">
         
         <a href="#about">about</a>
@@ -710,12 +719,20 @@
   <!-- HERO -->
   <section id="hero">
     <div class="container">
-      <div class="hero-inner">
+      <div class = "about-grid">
+        <div class="reveal reveal-delay-2">
+          <div class="avatar-box2">
+            <img src="images/myimage.jpg", alt="profileimage.">
+          </div>
+        </div>
+       <div class="hero-inner">
         <div class="status-badge">
           <div class="status-dot"></div>
           available for work
         </div>
+        
         <div class="hero-tag">// hello, world</div>
+        
         <h1 class="hero-h1">
           Hi, I'm <span class="name">Sagar Joshi</span>
           <span class="role">Full Stack Developer</span>
@@ -724,11 +741,13 @@
           I build scalable web applications with Node.js, Express &amp; NestJS.
           Passionate about clean architecture, robust APIs, and turning ideas into real products.
         </p>
+        
         <div class="hero-btns">
           <a href="#projects" class="btn-primary">View Projects</a>
           <a href="#contact" class="btn-outline">Contact Me</a>
         </div>
-      </div>
+       </div>
+     </div>
       <div class="scroll-hint">
         scroll
         <div class="scroll-arrow"></div>
@@ -979,7 +998,7 @@
             </a>
             <a class="social-link" href="https://github.com/joshi-sagar" target="_blank">
               <div class="social-icon">GH</div>
-              github.com/SystemCraft
+              github.com/joshi-sagar
             </a>
             <a class="social-link" href="https://www.linkedin.com/in/sagar-joshi-sde/" target="_blank">
               <div class="social-icon">in</div>
@@ -1048,7 +1067,7 @@
   <footer>
     <div class="footer-inner">
       <!-- UPDATE: Replace "yourname" and year -->
-      <div class="footer-left">// designed &amp; built by sagar· 2025</div>
+      <div class="footer-left">// designed &amp; built by sagar· 2026</div>
       <div class="footer-links">
         <a href="https://github.com/joshi-sagar" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/sagar-joshi-sde" target="_blank">LinkedIn</a>
